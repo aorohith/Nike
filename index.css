@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    background-color:rgb(245,245,245);
+    height: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content :space-between;
+    align-items: center;
+}
+
+.header1 div{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.hs{
+    font-size:13px ;
+    padding-left: 5px;
+    
+}
+/* *******Header 2 ***********/
+
+.header2{
+    height: 40px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2-logo img{
+    width:60px;
+    margin-left: 40px;
+}
+.h2-words{
+    margin-left: 200px;
+}
+.h2-words a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: black;
+}
+
+.h2-r-img{
+    height: 24px;
+    width: 24px;
+    margin-right:20px;
+}
+.h2-r input{
+    width: 160px;
+    height: 38px;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+
+/* Header3 */
+.header3{
+    width: 100%;
+    height: 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 15px;
+}
+.h3-tag{
+    font-size: 15px;
+}
+
+/* BODY SECTION */
+
+.body-sec{
+    /* background-color: aqua; */
+    width: 93%;
+    display:block;
+    margin:auto;
+    overflow: hidden;
+}
+
+.body-img1 img{
+    display:block;
+    margin:auto;
+}
+/* section 1 data */
+
+.sec1-text{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.find{
+    color: #111111;
+    font-size: 60px;
+    font-weight: bolder;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+.sec1-btn{
+    background-color: #111111;
+    color: #f5f5f5;
+    width: 100px;
+    height: 35px;
+    border:none;
+    border-radius: 50px;
+    font: 1em sans-serif;
+}
+
+/* section 2 */
+
+.sec-p{
+    /* margin-left: 50px; */
+    line-height: 4;
+    font-size: 24px;
+}
+.sec3-img {
+    width: 99.9%;
+}
+.sec-line-height{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*  Shoes section*/
+
+.sec7{
+    display: flex;
+}
+.card-container{
+    width: 400px;
+    margin-left: 10px;
+}
+.card-title{
+    display: flex;
+    margin-top: 20px;
+}
+.card-text1{
+    width: 70%;
+}
+.card-price{
+    margin-left: auto; 
+    margin-right: 0;
+    width: 20%;
+
+
+}
+.card-text1 span{
+    line-height: 30px;
+}
+.font-diff{
+    color: #757E8B;
+}
+.img-container{
+    width: 100%;
+}
+.img-container img{
+    width: 100%;
+}
+
+/* section 8 */
+
+.sec8-p{
+    margin-top: 100px;
+}
+.sec8-p-diff{
+    font-size: 20px;
+}
+
+/* section 9 */
+
+.sec9-foot{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.sec9-foot{
+    width: 100%;
+    height: 300px;
+}
+
+.sec9-group p{
+    color: #949494;
+    font-size: 19px;
+    line-height: 40px;
+    text-decoration: none;
+}
+.sec9-group .sec9-bold{
+    color:black;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+/* footer section */
+
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 270px;
+    background-color: #111111;
+}
+.for-links{
+    display: flex;
+    flex-direction: row;
+}
+.for-img{
+    margin-left: 400px;
+}
+.inner-foot{
+    display: flex;
+    margin-left: 30px;
+    width: 95%;
+}
+.inner-list{
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 200px;
+}
+.inner{
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+}
+.inner-head {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transform: scale(.7, 1);
+    
+    line-height: 35px;
+}
+.foot-img{    
+    margin-top: 50px;
+    width: 30px;
+}
+.inner-diff{
+    transform: scale(1, 1);
+}
+.footer-end{
+    background-color:#111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.end-left{
+    margin-left:50px;
+}
+.end-right{
+    margin-right: 50px;
+}
+.india{
+    font-size: 10px;
+    margin-right: 20px;
+    color: white;
+}
+.end-white{
+    width: 100%;
+    height: 30px;
+}
